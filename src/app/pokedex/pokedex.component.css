@@ -1,0 +1,39 @@
+
+div.col-6{
+  text-align: center;
+  border-radius: 1% ;
+  border: 2px darkgray solid;
+  background-color: beige;
+}
+
+div.col-3{
+  text-align: center;
+  margin-top: 2%;
+}
+div.col-2{
+  text-align: center;
+  margin-top: 2%;
+}
+
+div.col-7{
+  text-align:start;
+  margin-top: 2%;
+  border: 2px whitesmoke solid;
+  margin-bottom: 1%;
+}
+
+p{
+  color: whitesmoke;
+  text-align: center;
+}
+
+hr{
+  color: whitesmoke;
+}
+
+span{
+  text-align: center;
+  border: 2px darkgray solid;
+  font-size: large;
+}
+

@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<div class="container" style="border: 4px whitesmoke solid; border-radius: 2px;">
+  <div class="row">
+    <div class="col-6 col-sm">
+      <span> <b>Vista frontal</b></span>
+      <img src="{{imagen}}" alt="TEST" id="img" class="img-fluid">
+    </div>
+    <div class="col-6 col-sm">
+      <span> <b>Vista trasera</b></span>
+      <img src="{{imagenLado}}" alt="TEST" id="img" class="img-fluid">
+    </div>
+    <br>
+    <br>
+    <hr>
+  </div>
+  <div class="row">
+
+    <div class="col-2 col-sm">
+
+      <button (click)="buscar()" type="button" class="btn btn-success">BUSCAR</button>
+    </div>
+    <div class="col-3 col-sm">
+      <input type="text" class="form-control" [(ngModel)]="nombre" placeholder="Pokemon" aria-label="Pokemon"
+        aria-describedby="basic-addon1">
+    </div>
+    <div class="col-7 col-sm">
+      <p style="margin-top: 1%;"><b style="font-size: large;">Datos del Pokemon</b></p>
+      <hr>
+      <p> Nombre del Pokemon <b>|</b>{{nombrePokemon}}</p>
+      <p> Orden del Pokemon | <b>N</b> {{numeroPokemon}}</p>
+      <p> Experiencia |{{statsPokemon}} <b>XP</b></p>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="row">
+  <hr>
+</div>
+
+

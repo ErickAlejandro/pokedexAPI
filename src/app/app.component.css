@@ -1,0 +1,17 @@
+*{
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2300ddff' fill-opacity='0.59'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+h1{
+  text-align: center;
+  padding-top: 2%;
+  color: whitesmoke;
+  font-family: 'Courgette', cursive;
+}
+
+img{
+  border-radius: 3px;
+  border: 2px whitesmoke solid;
+}
